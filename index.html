@@ -1,0 +1,50 @@
+<html>
+<head>
+     
+        <label id="label"> Login </label><br><br>
+        <link rel="stylesheet" type=text/css href="style.css">
+        <script type="text/javascript" src="/home/pccoe/Desktop/index.js"></script>
+</head>
+
+<body>
+        
+        <script>
+         function validation(){
+         var x=document.getElementById("text").value;
+         var y=document.getElementById("pass").value;
+         if(x="devesh")
+         {
+                document.write("Hello devesh");
+               
+         }
+         else
+         {
+               alert("Please Enter the details");
+         }
+         if(y.length!=5){
+               alert("length greater than 5");
+         }
+         else
+         {
+               alert("nice");
+         }
+         
+         
+        </script>
+        <form method=POST >
+        <div class="text">
+        <label id="text">Email</label><br>
+        <input id="input" type=text name="Enter the name">
+        </div>
+        <div class="password">
+        <label id="text">password</label><br>
+        <input id="pass" type="password" name="Enter the name">
+        </div>
+        <div class="submit">
+        <button  onClick="validation()" type="submit" >Submit</button>
+        </div>
+     
+        </form>
+        
+</body>
+</html>
